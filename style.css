@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Borel', cursive;
+font-family: 'Fira Code', monospace;
+font-family: 'Nanum Gothic Coding', monospace;
+font-family: 'Roboto', sans-serif;
+font-family: 'Satisfy', cursive;
+}
+:root{
+ --text-color:red;
+
+}
+.dropdown:hover >.dropdown-menu{
+    display: block;
+    margin-top: 0.125em;
+    
+}
+.logo-side{
+    font-size: 28px;
+}
+.navbar-nav{
+    padding-left: 30px !important;
+}
+nav .navbar-nav li a{
+    color: var(--text-color)!important;
+    }
+.navbar-nav>li{
+   margin-right: 14px !important;
+   font-weight: bold;
+}
+
+.heading{
+   
+    text-align: center;
+    margin-top: 50px;
+}
+span{
+    color: red;
+}
+.subtitle{
+    text-align: center;
+    margin-top: 10px;
+}
+.card{
+    margin-top: 20px !important;
+    height: 330px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* outline: 1px solid red; */
+}
+.card-css>img {
+object-fit: cover;
+height: 240px;
+transition: 0.5s ease;
+
+}
+.card-css:hover img{
+    transform: scale(1.1);
+
+}
+.eyeglass-card>img{
+    object-fit: contain;
+    transition: 0.5s ease;
+   
+
+}
+.eyeglass-card{
+  height:280px;
+  
+}
+.eyeglass-card:hover img{
+    transform: scale(1.1);
+
+}
+.btn{
+     border-radius:4px ;
+     width: 300px;
+     margin-top: 30px;
+    background: var(--text-color);
+    color: #fff;
+}
+.btn:hover{
+    outline: 1px solid var(--text-color);
+}
